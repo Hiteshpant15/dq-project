@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    height: 80px;
+    margin: 0%;
+}
+.topblack{
+    background-color: black;
+    color: white;
+    height: 25px;
+  border-radius: 5px;
+    text-align: center;
+}
+.limited{
+    animation-name: change;
+    animation-iteration-count:infinite;
+    animation-delay: 0s;
+animation-duration: 2s;}
+    @keyframes change {from{
+        color: red;
+    }to{
+        color: yellow;
+    }
+        
+    }
+.top2{
+    background-color: white;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0px;
+}
+.logo1{
+    margin-left:150px;
+    width: 20%;
+}
+.top3{
+    background-color: white;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    height: 55px;
+    width: 70%;
+   
+}
+a{
+text-decoration: none !important;
+color: black !important;
+}
+
+#bg{
+    margin-top: 10px;
+    height: 87vh;
+    width: 100%;
+    background-image: url('https://ashishpal9687.graphy.com/s/pages/assets/images/r1rTrdqlbanner.png');
+    background-position: center;
+     background-size: cover; 
+     position: relative;
+    background-repeat: no-repeat;
+     background-size: cover; 
+}
+#overlap{
+    display: flex;
+    justify-content: center;   
+    background-color: #109fb59c;
+    height: 87vh;
+    width: 100%;
+}
+#boy{
+    /* position: absolute; */
+    height: 100%;
+    width: 100%;
+background-repeat: no-repeat;
+background-position: right;
+} 
+#inside{
+    padding-left: 20%;
+    margin-top: 20px;
+    height: 100vh;
+    width: 70%; 
+    color: blue;
+}
